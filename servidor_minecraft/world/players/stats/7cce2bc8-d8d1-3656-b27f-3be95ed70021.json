@@ -1,0 +1,40 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:grass_block": 14,
+      "minecraft:comparator": 75,
+      "minecraft:lectern": 6,
+      "minecraft:piston": 5,
+      "minecraft:sticky_piston": 59,
+      "minecraft:repeater": 43,
+      "minecraft:writable_book": 4,
+      "minecraft:lever": 72,
+      "minecraft:redstone_block": 33,
+      "minecraft:redstone_torch": 101,
+      "minecraft:redstone": 197,
+      "minecraft:iron_block": 158
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 95293,
+      "minecraft:walk_one_cm": 212281,
+      "minecraft:leave_game": 1,
+      "minecraft:interact_with_lectern": 22,
+      "minecraft:play_time": 95293,
+      "minecraft:jump": 613,
+      "minecraft:time_since_death": 95293,
+      "minecraft:sprint_one_cm": 9890,
+      "minecraft:fall_one_cm": 225,
+      "minecraft:total_world_time": 95293,
+      "minecraft:fly_one_cm": 146759,
+      "minecraft:crouch_one_cm": 691,
+      "minecraft:sneak_time": 967
+    },
+    "minecraft:picked_up": {
+      "minecraft:redstone_torch": 13,
+      "minecraft:writable_book": 4,
+      "minecraft:lever": 2,
+      "minecraft:redstone": 12
+    }
+  },
+  "DataVersion": 4671
+}

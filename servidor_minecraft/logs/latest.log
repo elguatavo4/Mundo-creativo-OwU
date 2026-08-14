@@ -1,0 +1,129 @@
+[01:37:31] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.3+9-2-24.04.2-Ubuntu; Ubuntu null) on Linux 6.8.0-1052-azure (amd64)
+[01:37:31] [ServerMain/INFO]: [bootstrap] Loading Paper 26.1.2-60-main@b4682bf (2026-05-04T06:25:04Z) for Minecraft 26.1.2
+[01:37:31] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[01:37:31] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
+[01:37:37] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[01:37:38] [ServerMain/WARN]: [WorldFolderMigration] ===================== ! ALERT ! =====================
+[01:37:38] [ServerMain/WARN]: [WorldFolderMigration] World storage migration is required during startup.
+[01:37:38] [ServerMain/WARN]: [WorldFolderMigration] If you do not have a backup: interrupt the server now. Use Ctrl+C, your panel kill function, etc.
+[01:37:38] [ServerMain/WARN]: [WorldFolderMigration] =====================================================
+[01:37:38] [ServerMain/WARN]: [WorldFolderMigration] Continuing in 30 seconds...
+[01:38:08] [ServerMain/INFO]: [WorldFolderMigration] Continuing with startup world migration.
+[01:38:08] [ServerMain/INFO]: Starting upgrade for world "world"
+[01:38:08] [ServerMain/INFO]: Upgrading progress: 2%
+[01:38:09] [ServerMain/INFO]: File system capabilities: FileSystemCapabilities[atomicMove=true, hardLinks=true]
+[01:38:09] [ServerMain/INFO]: Applying file structure changes for world "world"
+[01:38:09] [ServerMain/INFO]: Moving new hardlinked world to top level
+[01:38:09] [ServerMain/INFO]: Start cleanup
+[01:38:09] [ServerMain/INFO]: Moving out old world folder
+[01:38:09] [ServerMain/INFO]: Moving in new world folder
+[01:38:09] [ServerMain/INFO]: Done applying file structure changes for world "world". Cleaning up outdated data...
+[01:38:09] [ServerMain/INFO]: Upgrade done for world "world"
+[01:38:10] [Worker-Main-1/INFO]: [VanillaWorldMigration] Starting Vanilla import for world 'world' (minecraft:overworld)
+[01:38:10] [Worker-Main-1/INFO]: [WorldMigrationSupport] Migrating Paper world config from ./world/paper-world.yml to ./world/dimensions/minecraft/overworld/paper-world.yml
+[01:38:10] [Worker-Main-1/INFO]: [VanillaWorldMigration] Completed Vanilla import for world 'world' (minecraft:overworld)
+[01:38:12] [ServerMain/INFO]: Loaded 1515 recipes
+[01:38:12] [ServerMain/INFO]: Loaded 1617 advancements
+[01:38:12] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[01:38:13] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 1,480.4ms
+[01:38:13] [Server thread/INFO]: Starting minecraft server version 26.1.2
+[01:38:13] [Server thread/INFO]: Loading properties
+[01:38:14] [Server thread/INFO]: This server is running Paper version 26.1.2-60-main@b4682bf (2026-05-04T06:25:04Z) (Implementing API version 26.1.2.build.60-stable)
+[01:38:14] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[01:38:14] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:38:14] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:38:14] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[01:38:15] [Server thread/INFO]: Default game type: SURVIVAL
+[01:38:15] [Server thread/INFO]: Generating keypair
+[01:38:15] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:38:15] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[01:38:15] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[01:38:15] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:38:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:38:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:38:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:38:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:38:15] [Server thread/INFO]: Preparing level "world"
+[01:38:16] [Server thread/INFO]: [LegacyCraftBukkitWorldMigration] Starting legacy CraftBukkit import for world 'world_nether' (minecraft:the_nether)
+[01:38:16] [Server thread/INFO]: [WorldMigrationSupport] Migrating world directory from ./world_nether/DIM-1/region to ./world/dimensions/minecraft/the_nether/region
+[01:38:16] [Server thread/INFO]: [WorldMigrationSupport] Migrating Paper world config from ./world_nether/paper-world.yml to ./world/dimensions/minecraft/the_nether/paper-world.yml
+[01:38:16] [Server thread/INFO]: Starting upgrade for world "world_nether"
+[01:38:16] [Server thread/INFO]: Upgrading progress: 2%
+[01:38:16] [Server thread/INFO]: File system capabilities: FileSystemCapabilities[atomicMove=true, hardLinks=true]
+[01:38:16] [Server thread/INFO]: Applying file structure changes for world "world_nether"
+[01:38:16] [Server thread/INFO]: Moving new hardlinked world to top level
+[01:38:16] [Server thread/INFO]: Start cleanup
+[01:38:16] [Server thread/INFO]: Moving out old world folder
+[01:38:16] [Server thread/INFO]: Moving in new world folder
+[01:38:16] [Server thread/INFO]: Done applying file structure changes for world "world_nether". Cleaning up outdated data...
+[01:38:16] [Server thread/INFO]: Upgrade done for world "world_nether"
+[01:38:16] [Server thread/INFO]: [LegacyCraftBukkitWorldMigration] Completed legacy CraftBukkit import for world 'world_nether' (minecraft:the_nether)
+[01:38:17] [Server thread/INFO]: [LegacyCraftBukkitWorldMigration] Starting legacy CraftBukkit import for world 'world_the_end' (minecraft:the_end)
+[01:38:17] [Server thread/INFO]: [WorldMigrationSupport] Migrating world directory from ./world_the_end/DIM1/region to ./world/dimensions/minecraft/the_end/region
+[01:38:17] [Server thread/INFO]: [WorldMigrationSupport] Migrating Paper world config from ./world_the_end/paper-world.yml to ./world/dimensions/minecraft/the_end/paper-world.yml
+[01:38:17] [Server thread/INFO]: Starting upgrade for world "world_the_end"
+[01:38:17] [Server thread/INFO]: Upgrading progress: 2%
+[01:38:17] [Server thread/INFO]: File system capabilities: FileSystemCapabilities[atomicMove=true, hardLinks=true]
+[01:38:17] [Server thread/INFO]: Applying file structure changes for world "world_the_end"
+[01:38:17] [Server thread/INFO]: Moving new hardlinked world to top level
+[01:38:17] [Server thread/INFO]: Start cleanup
+[01:38:17] [Server thread/INFO]: Moving out old world folder
+[01:38:17] [Server thread/INFO]: Moving in new world folder
+[01:38:17] [Server thread/INFO]: Done applying file structure changes for world "world_the_end". Cleaning up outdated data...
+[01:38:17] [Server thread/INFO]: Upgrade done for world "world_the_end"
+[01:38:17] [Server thread/INFO]: [LegacyCraftBukkitWorldMigration] Completed legacy CraftBukkit import for world 'world_the_end' (minecraft:the_end)
+[01:38:17] [Server thread/INFO]: Loading 25 persistent chunks for level 'minecraft:overworld'...
+[01:38:17] [Server thread/INFO]: Preparing spawn area: 28%
+[01:38:18] [Server thread/INFO]: Preparing spawn area: 28%
+[01:38:18] [Server thread/INFO]: Preparing spawn area: 28%
+[01:38:19] [Server thread/INFO]: Prepared spawn area in 2172 ms
+[01:38:19] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[01:38:19] [Server thread/INFO]: Prepared spawn area in 2 ms
+[01:38:19] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[01:38:19] [Server thread/INFO]: Prepared spawn area in 0 ms
+[01:38:19] [Server thread/INFO]: Done preparing level "world" (4.307s)
+[01:38:20] [Server thread/INFO]: [spark] Starting background profiler...
+[01:38:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:38:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[01:38:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[01:38:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:38:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:38:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:38:22] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:38:22] [Server thread/INFO]: Running delayed init tasks
+[01:38:22] [Server thread/INFO]: Done (52.555s)! For help, type "help"
+[01:38:22] [Paper Async Task Handler Thread - 1/WARN]: *** You are running an outdated version of Minecraft, which is 2 release(s) and 14 build(s) behind!
+[01:38:22] [Paper Async Task Handler Thread - 1/WARN]: *** Please update to the latest stable version on https://papermc.io/downloads/paper ***
+[01:40:03] [Server thread/INFO]: Stopping the server
+[01:40:03] [Server thread/INFO]: Stopping server
+[01:40:03] [Server thread/INFO]: Saving players
+[01:40:04] [Server thread/INFO]: Saving worlds
+[01:40:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:40:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:overworld'
+[01:40:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:overworld'
+[01:40:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:overworld'
+[01:40:04] [Server thread/INFO]: [ChunkHolderManager] Saved 3 block chunks, 1 entity chunks, 0 poi chunks in world 'minecraft:overworld' in 0.07s
+[01:40:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:overworld'
+[01:40:04] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:overworld'
+[01:40:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[01:40:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_nether'
+[01:40:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_nether'
+[01:40:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_nether'
+[01:40:04] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_nether' in 0.00s
+[01:40:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_nether'
+[01:40:04] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_nether'
+[01:40:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[01:40:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_end'
+[01:40:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_end'
+[01:40:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_end'
+[01:40:04] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_end' in 0.00s
+[01:40:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_end'
+[01:40:04] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_end'
+[01:40:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:40:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:40:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:40:04] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:40:04] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[01:40:04] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[01:40:04] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[01:40:04] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
